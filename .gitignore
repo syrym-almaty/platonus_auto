@@ -1,0 +1,101 @@
+# Ignore OS generated files
+.DS_Store
+Thumbs.db
+
+# Ignore Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ignore virtual environments
+venv/
+.env/
+.venv/
+
+# Ignore credentials and sensitive files
+*.pem
+*.key
+*.crt
+*.env
+credentials.txt
+
+# Ignore log files
+*.log
+
+# Ignore environment variable files
+.env
+*.env
+
+# Ignore IDEs and editors specific files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Ignore distribution/build directories
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Ignore package manager files
+yarn.lock
+package-lock.json
+
+# Ignore cache and temporary files
+*.bak
+*.swp
+*.tmp
+*.temp
+*.cache/
+
+# Ignore Selenium driver binaries
+chromedriver*
+msedgedriver*
+
+# Ignore database files
+*.sqlite3
+*.db
+
+# Ignore JSON data files
+*.json
+
+# Ignore archives
+*.zip
+*.tar.gz
+*.rar
+
+# Ignore coverage reports
+htmlcov/
+.coverage
+*.cover
+*.coverage.*
+.cache
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore Windows generated files
+ntuser.dat
+ntuser.ini
+Desktop.ini
+
+# Ignore git-related files
+!.gitignore
+
+# Ignore test data and extracted user data
+User_Data*
+extract_links.log
+student_5160_data.json
+test_student_data.json
+Driver_Notes/
+User_Data/
+User_Data_page_1/
+User_Data_page_16/
+User_Data_page_2/
+User_Data_page_3/
+User_Data_page_4/
+User_Data_page_5/
+User_Data_page_6/
+User_Data_page_7/
+User_Data_page_8/
